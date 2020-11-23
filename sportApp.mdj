@@ -71,7 +71,7 @@
 													"top": 36,
 													"width": 319,
 													"height": 13,
-													"text": "Users"
+													"text": "User"
 												},
 												{
 													"_type": "LabelView",
@@ -850,7 +850,7 @@
 													"top": 476,
 													"width": 135,
 													"height": 13,
-													"text": "Tags"
+													"text": "Tag"
 												},
 												{
 													"_type": "LabelView",
@@ -1183,7 +1183,7 @@
 													"top": 172,
 													"width": 135,
 													"height": 13,
-													"text": "Levels"
+													"text": "Level"
 												},
 												{
 													"_type": "LabelView",
@@ -1431,7 +1431,7 @@
 													"top": 180,
 													"width": 135,
 													"height": 13,
-													"text": "SportClubs"
+													"text": "SportClub"
 												},
 												{
 													"_type": "LabelView",
@@ -1961,7 +1961,7 @@
 													"top": 380,
 													"width": 167,
 													"height": 13,
-													"text": "Posts"
+													"text": "Post"
 												},
 												{
 													"_type": "LabelView",
@@ -2243,7 +2243,7 @@
 													"top": 428,
 													"width": 159,
 													"height": 13,
-													"text": "Photos"
+													"text": "Photo"
 												},
 												{
 													"_type": "LabelView",
@@ -3293,9 +3293,9 @@
 												"$ref": "AAAAAAF16lCRhwa9fLo="
 											},
 											"font": "Arial;13;0",
-											"left": 201,
+											"left": 200,
 											"top": 338,
-											"width": 5.05908203125,
+											"width": 6.5,
 											"height": 13,
 											"alpha": 0.5235987755982988,
 											"distance": 25,
@@ -3567,9 +3567,9 @@
 												"$ref": "AAAAAAF16mDVzRXhkOo="
 											},
 											"font": "Arial;13;0",
-											"left": 780,
+											"left": 779,
 											"top": 462,
-											"width": 5.05908203125,
+											"width": 6.5,
 											"height": 13,
 											"alpha": 0.5235987755982988,
 											"distance": 25,
@@ -6121,7 +6121,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF16dwiu4KcpSc="
 							},
-							"name": "Users",
+							"name": "User",
 							"ownedElements": [
 								{
 									"_type": "UMLAssociation",
@@ -6534,7 +6534,8 @@
 										"$ref": "AAAAAAF16e2RboPy+sM="
 									},
 									"name": "userId",
-									"visibility": "private"
+									"visibility": "private",
+									"type": ""
 								}
 							]
 						},
@@ -6568,7 +6569,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF16dwiu4KcpSc="
 							},
-							"name": "Tags",
+							"name": "Tag",
 							"stereotype": "Models",
 							"attributes": [
 								{
@@ -6669,7 +6670,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF16dwiu4KcpSc="
 							},
-							"name": "Levels",
+							"name": "Level",
 							"stereotype": "Models",
 							"attributes": [
 								{
@@ -6720,7 +6721,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF16dwiu4KcpSc="
 							},
-							"name": "SportClubs",
+							"name": "SportClub",
 							"ownedElements": [
 								{
 									"_type": "UMLAssociation",
@@ -6813,7 +6814,8 @@
 										"$ref": "AAAAAAF16f1MLIXSF+8="
 									},
 									"name": "userId",
-									"visibility": "private"
+									"visibility": "private",
+									"type": ""
 								}
 							]
 						},
@@ -6874,7 +6876,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF16dwiu4KcpSc="
 							},
-							"name": "Posts",
+							"name": "Post",
 							"ownedElements": [
 								{
 									"_type": "UMLAssociation",
@@ -6978,7 +6980,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF16dwiu4KcpSc="
 							},
-							"name": "Photos",
+							"name": "Photo",
 							"ownedElements": [
 								{
 									"_type": "UMLAssociation",
